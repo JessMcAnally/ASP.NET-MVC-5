@@ -1,5 +1,6 @@
 ASP.Net MVC 5
 MVC is…
+
 * Useful way to organize code, markup, and control flow
 * Easy to learn
-* 
+*
