@@ -32,5 +32,15 @@ namespace WebApplication1.Controllers
         {
             return View("About");
         }
+
+        public ActionResult Serial(string letterCase)
+        {
+            var serial = "ADF93AF9290RG";
+            if(letterCase == "lower")
+            {
+                return Content(serial.ToLower());
+            }
+            return Content(serial);
+        }
     }
 }
